@@ -96,8 +96,8 @@ function navigateToVideo(videoId){
  // video_id: video_id
     document.cookie = `video_id=${videoId}; path=${path}`
     let linkItem = document.createElement("a");
-    linkItem.href = "/video.html"
-    linkItem.target = "_blank" ;
+    linkItem.href = "./video.html"
+    // linkItem.target = "_blank" 
     linkItem.click();
   }
   else {

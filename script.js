@@ -92,9 +92,10 @@ function formattedData(duration) {
   
 function navigateToVideo(videoId){
   let path = `/video.html`;
+  document.cookie = `video_id=${videoId}; path=${path}`
   if(videoId){
  // video_id: video_id
-    document.cookie = `video_id=${videoId}; path=${path}`
+//     document.cookie = `video_id=${videoId}; path=${path}`
     let linkItem = document.createElement("a");
     linkItem.href = "./video.html"
     // linkItem.target = "_blank" 

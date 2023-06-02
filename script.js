@@ -1,5 +1,5 @@
 const searchInput = document.getElementById("search-input");
-const apiKey = "AIzaSyDhUEOSsAtGTShZO_UIYIA636GP5lRV-kM";
+const apiKey = "AIzaSyCHh-uB9odWnhhu9AXiFg_CT8l5n0rxHr8";
 localStorage.setItem("api_key", apiKey);
 const container = document.getElementById("container");
 
